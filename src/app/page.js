@@ -48,7 +48,7 @@ const Home = () => {
   }, []);
 
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+    <ThemeProvider to="/" theme={darkMode ? darkTheme : lightTheme}>
       <Router>
         <Navbar />
         <Body>

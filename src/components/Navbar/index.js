@@ -46,11 +46,21 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#concat">Concat</NavLink>
+          <NavLink to="/" href="#about">
+            About
+          </NavLink>
+          <NavLink to="/" href="#skills">
+            Skills
+          </NavLink>
+          <NavLink to="/" href="#projects">
+            Projects
+          </NavLink>
+          <NavLink to="/" href="#education">
+            Education
+          </NavLink>
+          <NavLink to="/" href="#concat">
+            Concat
+          </NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
@@ -60,6 +70,7 @@ const Navbar = () => {
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
             <MobileLink
+              to="/"
               href="#about"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -68,6 +79,7 @@ const Navbar = () => {
               About
             </MobileLink>
             <MobileLink
+              to="/"
               href="#skills"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -76,6 +88,7 @@ const Navbar = () => {
               Skills
             </MobileLink>
             <MobileLink
+              to="/"
               href="#projects"
               onClick={() => {
                 setIsOpen(!isOpen);
@@ -84,6 +97,7 @@ const Navbar = () => {
               Projects
             </MobileLink>
             <MobileLink
+              to="/"
               href="#education"
               onClick={() => {
                 setIsOpen(!isOpen);

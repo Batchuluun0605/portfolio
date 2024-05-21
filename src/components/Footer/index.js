@@ -89,11 +89,21 @@ function Footer() {
       <FooterWrapper>
         <Logo>Batchuluun Tsogbayr</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#concat">Concat</NavLink>
+          <NavLink to="/" href="#about">
+            About
+          </NavLink>
+          <NavLink to="/" href="#skills">
+            Skills
+          </NavLink>
+          <NavLink to="/" href="#projects">
+            Projects
+          </NavLink>
+          <NavLink to="/" href="#education">
+            Education
+          </NavLink>
+          <NavLink to="/" href="#concat">
+            Concat
+          </NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
