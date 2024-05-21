@@ -39,23 +39,18 @@ const Home = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   const router = useRouter();
-
-  useEffect(() => {
-    if (typeof window === "undefined" && typeof document !== "undefined") {
-      console.log("hell");
-      return router.push("http://localhost:3000");
-    }
-  }, []);
-
+  if (typeof document !== "undefined") {
+    console.log("hello");
+  }
   return (
-    <ThemeProvider to="/" theme={darkMode ? darkTheme : lightTheme}>
-      <Router>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      <>
         <Navbar />
         <Body>
-          <HeroSection />
+          <HeroSection to="/" />
           <Wrapper>
             <Skills />
-            {/* <Experience /> */}
+            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
@@ -67,7 +62,7 @@ const Home = () => {
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           )}
         </Body>
-      </Router>
+      </>
     </ThemeProvider>
   );
 };
