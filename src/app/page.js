@@ -40,9 +40,12 @@ const Home = () => {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   const router = useRouter();
 
-  if (typeof document === "undefined") {
-    router.push("http://localhost:3000");
-  }
+  useEffect(() => {
+    if (typeof window === "undefined" && typeof document !== "undefined") {
+      console.log("hell");
+      return router.push("http://localhost:3000");
+    }
+  }, []);
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
