@@ -1,6 +1,6 @@
 "use client";
 import { ThemeProvider } from "styled-components";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import styled from "styled-components";
 import Navbar from "@/components/Navbar";
@@ -13,6 +13,7 @@ import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import ProjectDetails from "@/components/ProjectDetails";
 import Footer from "@/components/Footer";
+import { useRouter } from "next/navigation";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,9 +35,15 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
-export default function Home() {
+const Home = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const router = useRouter();
+
+  if (typeof document === "undefined") {
+    router.push("http://localhost:3000");
+  }
+
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
@@ -60,4 +67,5 @@ export default function Home() {
       </Router>
     </ThemeProvider>
   );
-}
+};
+export default Home;

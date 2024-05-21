@@ -152,7 +152,7 @@ const Contact = () => {
           form.current.reset();
         },
         (error) => {
-          console.log(error.text);
+          return error;
         }
       );
   };
