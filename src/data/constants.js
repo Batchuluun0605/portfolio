@@ -5,7 +5,7 @@ export const Bio = {
     "Технологын чиглэлээр суралцаад удаагүй байгаа боловч үргэлж шинийг эрэлхийлж өдөр бүр 0.001-ээр урагшлахыг хүсдэг.",
   github: "https://github.com/Batchuluun0605/",
   resume:
-    "https://cdn.fbsbx.com/v/t59.2708-21/442460461_1098335514578340_82667726830464181_n.pdf/Add-a-heading.pdf?_nc_cat=100&ccb=1-7&_nc_sid=2b0e22&_nc_ohc=okimgt1f7ioQ7kNvgGquwAU&_nc_ht=cdn.fbsbx.com&oh=03_Q7cD1QEZxil4I0UpNTheCngNZxciwiAeMgVo5GB0_3Axmuw0bw&oe=664B9371&dl=1",
+    "https://www.canva.com/design/DAGGTBm9kF8/hffMAxScUnudS15fRn_xgw/view?utm_content=DAGGTBm9kF8&utm_campaign=designshare&utm_medium=link&utm_source=editor&fbclid=IwAR0ylQXRcuMGWNVrA5WIdBXfpEJDmeLq6GOCwmfcUHGLp5BK4hL4abwpXM4",
   insta: "https://www.instagram.com/_naruu0_/",
   facebook: "https://www.facebook.com/tsogbayr.batchuluun/",
 };
@@ -98,6 +98,17 @@ export const skills = [
       },
 
       {
+        name: "Cypress",
+        image:
+          "https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png",
+      },
+
+      {
+        name: "Jest",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBZeiw-7ZdcbqWq4DYD2qH5xRLNvNsPDPvhwieTG3aRA&s",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -135,7 +146,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
     title: "Weather",
     date: "Feb 2024 - Mar 2024",
     description:
@@ -148,7 +159,7 @@ export const projects = [
     webapp: "https://weather-zeta-wine.vercel.app/",
   },
   {
-    id: 0,
+    id: 1,
     title: "To Do App",
     date: "Oct 2023 - Sep 2023",
     description:
@@ -161,16 +172,52 @@ export const projects = [
     webapp: "https://batchuluun-5bzd.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Blog Web Site",
     date: "Dec 2023 - Jan 2024",
     description:
       "Эхэн үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
     image:
       "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-127416.jpg",
-    tags: ["React Js", "Tailwind CSS"],
+    tags: ["React Js", "Tailwind CSS", "Blog API"],
     category: "web app",
     github: "https://github.com/Batchuluun0605/blogwebsite",
     webapp: "https://blogwebsite-ruddy.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Calculator",
+    date: "Dec 2023 - Jan 2024",
+    description: "Тооны тоцоолол хийх зорилгоор",
+    image:
+      "https://cdn.vox-cdn.com/thumbor/0oebKfb4jZ6p56qiS9EOYP8IUNk=/126x0:2310x1125/1400x1400/filters:focal(1871x643:1872x644)/cdn.vox-cdn.com/uploads/chorus_asset/file/22193828/IMG_0369.jpg",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Calculator",
+    webapp: "https://calculator-sooty-seven.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Expense Tracker",
+    date: "Dec 2023 - Jan 2024",
+    description: "Өөрийнхөө санхүүг зөв системээр удирдахад зориулагдсан",
+    image:
+      "https://www.appstudio.ca/blog/wp-content/uploads/2022/04/Pro-Suggestions-for-the-Best-Expense-Tracker-Apps-for-Startups-in-2022.jpg",
+    tags: ["React Js", "Tailwind CSS", "Daisy UI", "NeonCTL", "SQL"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/ExpenseTrackcer",
+    webapp: "https://expense-trackcer.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Memory Game",
+    date: "Dec 2023 - Feb 2024",
+    description: "Хөгжилтэй байх зорилгоор хийсэн",
+    image:
+      "https://ecdn.teacherspayteachers.com/thumbitem/Emoji-Memory-Game-9560148-1684529757/original-9560148-2.jpg",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/MemoryGame",
+    webapp: "https://memory-game-five-sand.vercel.app/",
   },
 ];

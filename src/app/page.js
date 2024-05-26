@@ -50,7 +50,6 @@ const Home = () => {
           <HeroSection to="/" />
           <Wrapper>
             <Skills />
-            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
