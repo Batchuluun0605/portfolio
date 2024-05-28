@@ -146,6 +146,27 @@ export const education = [
 
 export const projects = [
   {
+    id: 9,
+    title: "E-commerce",
+    date: "Nov 2023 - Mar 2023",
+    description:
+      "ямар нэгэн худалдааны байгуулга эмх цэгцтэй, орлого сайтай байхын тулд хийгдсэн",
+    image:
+      "https://w3layouts.com/wp-content/uploads/2021/06/Electronics-Mart-eCommerce-website-template-1-scaled.jpg",
+    tags: [
+      "Typescript",
+      "React",
+      "Material UI",
+      "Tailwind CSS",
+      "Daisy UI",
+      "MongoDB",
+      "Node Js",
+    ],
+    category: "web app",
+    github: "https://github.com/LP23-1A/E-commerce-team-4",
+    webapp: "https://e-commerce-team-4.vercel.app/",
+  },
+  {
     id: 0,
     title: "Weather",
     date: "Feb 2024 - Mar 2024",
@@ -185,12 +206,38 @@ export const projects = [
     webapp: "https://blogwebsite-ruddy.vercel.app/",
   },
   {
+    id: 10,
+    title: "HRMS",
+    date: "Apr 2024 - May 2024",
+    description:
+      "Энэхүү модуль нь шаардлагатай нийт мэдээллийг цуглуулах, хадгалах боломжийг олгох, хүний нөөцийн дэлгэрэнгүй мэдээллийн нэгдсэн сан үүсгэх, материалын зардлыг багасгах юм.",
+    image:
+      "https://go-better.com/blog/wp-content/uploads/2023/06/Five_ways_modern_HRMS_solve_traditional_issues_faced_by_HR.jpg",
+    tags: [
+      "Typescript",
+      "Monorepo",
+      "Graphql",
+      "MongoDB",
+      "Tailwind CSS",
+      "Material UI",
+      "Cypress",
+      "Jest",
+      "Node Js",
+      "React",
+    ],
+    category: "web app",
+    github:
+      "https://github.com/pinecone-studio/pinecone-intern-monorepo/tree/main/apps/HRMS/hrms-dashboard",
+    webapp:
+      "https://intern-hrms-dashboard-prod-pinecone-studio.vercel.app/employee-details",
+  },
+  {
     id: 3,
     title: "Calculator",
     date: "Dec 2023 - Jan 2024",
     description: "Тооны тоцоолол хийх зорилгоор",
     image:
-      "https://cdn.vox-cdn.com/thumbor/0oebKfb4jZ6p56qiS9EOYP8IUNk=/126x0:2310x1125/1400x1400/filters:focal(1871x643:1872x644)/cdn.vox-cdn.com/uploads/chorus_asset/file/22193828/IMG_0369.jpg",
+      "https://media.idownloadblog.com/wp-content/uploads/2022/12/iPhone-Calculator-app.png",
     tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/Batchuluun0605/Calculator",
@@ -214,7 +261,7 @@ export const projects = [
     date: "Dec 2023 - Feb 2024",
     description: "Хөгжилтэй байх зорилгоор хийсэн",
     image:
-      "https://ecdn.teacherspayteachers.com/thumbitem/Emoji-Memory-Game-9560148-1684529757/original-9560148-2.jpg",
+      "https://www.memozor.com/templates/memoire/images/zoom/memory_game_adults_emoji.jpg",
     tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/Batchuluun0605/MemoryGame",
