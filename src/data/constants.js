@@ -193,19 +193,6 @@ export const projects = [
     webapp: "https://batchuluun-5bzd.vercel.app/",
   },
   {
-    id: 2,
-    title: "Blog Web Site",
-    date: "Dec 2023 - Jan 2024",
-    description:
-      "Эхэн үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
-    image:
-      "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-127416.jpg",
-    tags: ["React Js", "Tailwind CSS", "Blog API"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/blogwebsite",
-    webapp: "https://blogwebsite-ruddy.vercel.app/",
-  },
-  {
     id: 10,
     title: "HRMS",
     date: "Apr 2024 - May 2024",
@@ -231,6 +218,20 @@ export const projects = [
     webapp:
       "https://intern-hrms-dashboard-prod-pinecone-studio.vercel.app/employee-details",
   },
+  {
+    id: 2,
+    title: "Blog Web Site",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "Эхэн үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
+    image:
+      "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-127416.jpg",
+    tags: ["React Js", "Tailwind CSS", "Blog API"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/blogwebsite",
+    webapp: "https://blogwebsite-ruddy.vercel.app/",
+  },
+
   {
     id: 3,
     title: "Calculator",
