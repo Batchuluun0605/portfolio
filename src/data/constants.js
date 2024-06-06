@@ -4,8 +4,9 @@ export const Bio = {
   description:
     "Технологын чиглэлээр суралцаад удаагүй байгаа боловч үргэлж шинийг эрэлхийлж өдөр бүр 0.001-ээр урагшлахыг хүсдэг.",
   github: "https://github.com/Batchuluun0605/",
-  resume:
-    "https://www.canva.com/design/DAGGTBm9kF8/hffMAxScUnudS15fRn_xgw/view?utm_content=DAGGTBm9kF8&utm_campaign=designshare&utm_medium=link&utm_source=editor&fbclid=IwAR0ylQXRcuMGWNVrA5WIdBXfpEJDmeLq6GOCwmfcUHGLp5BK4hL4abwpXM4",
+  resume: "batchuluun.pdf",
+  // resume:
+  //   "https://www.canva.com/design/DAGGTBm9kF8/hffMAxScUnudS15fRn_xgw/view?utm_content=DAGGTBm9kF8&utm_campaign=designshare&utm_medium=link&utm_source=editor&fbclid=IwAR0ylQXRcuMGWNVrA5WIdBXfpEJDmeLq6GOCwmfcUHGLp5BK4hL4abwpXM4",
   insta: "https://www.instagram.com/_naruu0_/",
   facebook: "https://www.facebook.com/tsogbayr.batchuluun/",
 };
