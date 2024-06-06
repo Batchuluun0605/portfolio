@@ -146,53 +146,6 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "E-commerce",
-    date: "Nov 2023 - Mar 2023",
-    description:
-      "ямар нэгэн худалдааны байгуулга эмх цэгцтэй, орлого сайтай байхын тулд хийгдсэн",
-    image:
-      "https://w3layouts.com/wp-content/uploads/2021/06/Electronics-Mart-eCommerce-website-template-1-scaled.jpg",
-    tags: [
-      "Typescript",
-      "React",
-      "Material UI",
-      "Tailwind CSS",
-      "Daisy UI",
-      "MongoDB",
-      "Node Js",
-    ],
-    category: "web app",
-    github: "https://github.com/LP23-1A/E-commerce-team-4",
-    webapp: "https://e-commerce-team-4.vercel.app/",
-  },
-  {
-    id: 0,
-    title: "Weather",
-    date: "Feb 2024 - Mar 2024",
-    description:
-      "Цаг агаарын api ашиглаж бүх улсын тухайн өдрийн цаг агаарын мэдээг хайж үнэн бодит мэдээлэл өгөх зорилгоор хийсэн.",
-    image:
-      "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?w=1500&quality=82&strip=all&ssl=1",
-    tags: ["Weather Api", "React Js", "Material UI"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/Weather1",
-    webapp: "https://weather-zeta-wine.vercel.app/",
-  },
-  {
-    id: 1,
-    title: "To Do App",
-    date: "Oct 2023 - Sep 2023",
-    description:
-      "Хувь хүн тухайн өдрийн хийх зүйлээ маш зохион байгуулалтай үр дүнтэй хийхийн тулд ашиглах зорилгоор хийсэн нийт 4 үйлдлийг хийх боломжтой.",
-    image:
-      "https://repository-images.githubusercontent.com/621657746/73fdccdd-9a96-498b-b6d4-bed0708eb663",
-    tags: ["Javascript", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/LP23-1A/batchuluun/tree/main/todo",
-    webapp: "https://batchuluun-5bzd.vercel.app/",
-  },
-  {
     id: 10,
     title: "HRMS",
     date: "Apr 2024 - May 2024",
@@ -218,6 +171,21 @@ export const projects = [
     webapp:
       "https://intern-hrms-dashboard-prod-pinecone-studio.vercel.app/employee-details",
   },
+
+  {
+    id: 1,
+    title: "To Do App",
+    date: "Oct 2023 - Sep 2023",
+    description:
+      "Хувь хүн тухайн өдрийн хийх зүйлээ маш зохион байгуулалтай үр дүнтэй хийхийн тулд ашиглах зорилгоор хийсэн нийт 4 үйлдлийг хийх боломжтой.",
+    image:
+      "https://repository-images.githubusercontent.com/621657746/73fdccdd-9a96-498b-b6d4-bed0708eb663",
+    tags: ["Javascript", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/LP23-1A/batchuluun/tree/main/todo",
+    webapp: "https://batchuluun-5bzd.vercel.app/",
+  },
+
   {
     id: 2,
     title: "Blog Web Site",
@@ -231,7 +199,18 @@ export const projects = [
     github: "https://github.com/Batchuluun0605/blogwebsite",
     webapp: "https://blogwebsite-ruddy.vercel.app/",
   },
-
+  {
+    id: 5,
+    title: "Memory Game",
+    date: "Dec 2023 - Feb 2024",
+    description: "Хөгжилтэй байх зорилгоор хийсэн",
+    image:
+      "https://www.memozor.com/templates/memoire/images/zoom/memory_game_adults_emoji.jpg",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/MemoryGame",
+    webapp: "https://memory-game-five-sand.vercel.app/",
+  },
   {
     id: 3,
     title: "Calculator",
@@ -245,6 +224,19 @@ export const projects = [
     webapp: "https://calculator-sooty-seven.vercel.app/",
   },
   {
+    id: 0,
+    title: "Weather",
+    date: "Feb 2024 - Mar 2024",
+    description:
+      "Цаг агаарын api ашиглаж бүх улсын тухайн өдрийн цаг агаарын мэдээг хайж үнэн бодит мэдээлэл өгөх зорилгоор хийсэн.",
+    image:
+      "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?w=1500&quality=82&strip=all&ssl=1",
+    tags: ["Weather Api", "React Js", "Material UI"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Weather1",
+    webapp: "https://weather-zeta-wine.vercel.app/",
+  },
+  {
     id: 4,
     title: "Expense Tracker",
     date: "Dec 2023 - Jan 2024",
@@ -256,16 +248,26 @@ export const projects = [
     github: "https://github.com/Batchuluun0605/ExpenseTrackcer",
     webapp: "https://expense-trackcer.vercel.app/",
   },
+
   {
-    id: 5,
-    title: "Memory Game",
-    date: "Dec 2023 - Feb 2024",
-    description: "Хөгжилтэй байх зорилгоор хийсэн",
+    id: 9,
+    title: "E-commerce",
+    date: "Nov 2023 - Mar 2023",
+    description:
+      "ямар нэгэн худалдааны байгуулга эмх цэгцтэй, орлого сайтай байхын тулд хийгдсэн",
     image:
-      "https://www.memozor.com/templates/memoire/images/zoom/memory_game_adults_emoji.jpg",
-    tags: ["HTML", "CSS", "Javascript"],
+      "https://w3layouts.com/wp-content/uploads/2021/06/Electronics-Mart-eCommerce-website-template-1-scaled.jpg",
+    tags: [
+      "Typescript",
+      "React",
+      "Material UI",
+      "Tailwind CSS",
+      "Daisy UI",
+      "MongoDB",
+      "Node Js",
+    ],
     category: "web app",
-    github: "https://github.com/Batchuluun0605/MemoryGame",
-    webapp: "https://memory-game-five-sand.vercel.app/",
+    github: "https://github.com/LP23-1A/E-commerce-team-4",
+    webapp: "https://e-commerce-team-4.vercel.app/",
   },
 ];
