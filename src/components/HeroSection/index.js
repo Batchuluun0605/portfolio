@@ -21,6 +21,9 @@ import HeroBgAnimation from "../HeroBgAnimation";
 import { Bio } from "@/data/constants";
 
 const HeroSection = () => {
+  const downloadImage = () => {
+    saveAs("https://www.imghippo.com/i/uQTTw1726208581.png", "image.jpg"); // Put your image URL here.
+  };
   return (
     <div id="about">
       <HeroContainer>

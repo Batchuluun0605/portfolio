@@ -5,7 +5,7 @@ export const Bio = {
     "Технологын чиглэлээр суралцаад удаагүй байгаа боловч үргэлж шинийг эрэлхийлж өдөр бүр 0.001-ээр урагшлахыг хүсдэг.",
   github: "https://github.com/Batchuluun0605/",
   resume:
-    "https://cdn.fbsbx.com/v/t59.2708-21/446115146_426253546876578_5408135262317456807_n.pdf/batchuluun.pdf?_nc_cat=105&ccb=1-7&_nc_sid=2b0e22&_nc_ohc=ZuuUUI79u0AQ7kNvgEspUbG&_nc_ht=cdn.fbsbx.com&oh=03_Q7cD1QFFPimj6FeXYMx_WWU3BxgH91c0YU1ad9mdWcZkyvOFmw&oe=66630A8F&dl=1",
+    "https://www.canva.com/design/DAGQjXO-cz4/xLrpfQk06DibddtM765V-Q/view?utm_content=DAGQjXO-cz4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   // resume:
   //   "https://www.canva.com/design/DAGGTBm9kF8/hffMAxScUnudS15fRn_xgw/view?utm_content=DAGGTBm9kF8&utm_campaign=designshare&utm_medium=link&utm_source=editor&fbclid=IwAR0ylQXRcuMGWNVrA5WIdBXfpEJDmeLq6GOCwmfcUHGLp5BK4hL4abwpXM4",
   insta: "https://www.instagram.com/_naruu0_/",
@@ -148,6 +148,127 @@ export const education = [
 
 export const projects = [
   {
+    id: 9,
+    title: "Gemini Clone",
+    date: "Nov 2023 - Mar 2023",
+    description: "AI",
+    image:
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp",
+    tags: ["google/generative-ai", "React", "Tailwind CSS"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Gemini-clone",
+    webapp: "https://gemini-clone-phi-one.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "E-commerce",
+    date: "Jun 2024 - Sep 2024",
+    description:
+      "ямар нэгэн худалдааны байгуулга эмх цэгцтэй, орлого сайтай байхын тулд хийгдсэн.",
+    image:
+      "https://img.freepik.com/free-vector/ecommerce-web-page-concept-illustration_114360-8204.jpg",
+    tags: [
+      "Typescript",
+      "framer motion",
+      "Tailwind CSS",
+      "Material UI",
+      "Cypress",
+      "Jest",
+      "React",
+      "Clerk",
+      "shadcn",
+      "axios",
+    ],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/E-commerce",
+    webapp: "https://e-commerce-gules-beta-29.vercel.app/",
+  },
+
+  {
+    id: 1,
+    title: "Plant",
+    date: "Jun 2024 - Jun 2024",
+    description: "Responsive Plant Website",
+    image:
+      "https://cdn.dribbble.com/users/1862011/screenshots/11222162/media/0e42b6309593344d81e05302bb3cbb94.gif",
+    tags: ["React", "HTML", "CSS", "TailwindCSS"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/plant",
+    webapp: "https://plant-ten.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "Blog Web Site",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "Эхэн үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
+    image:
+      "https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/website-templates/Blog%20Page%20Tech.png",
+    tags: ["React Js", "Tailwind CSS", "axios", "Node Js", "MongoDB"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Blog-App",
+    webapp: "https://blogwebsite-ruddy.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Memory Game",
+    date: "Dec 2023 - Feb 2024",
+    description: "Хөгжилтэй байх зорилгоор хийсэн",
+    image:
+      "https://www.memozor.com/templates/memoire/images/zoom/memory_game_adults_emoji.jpg",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/MemoryGame",
+    webapp: "https://memory-game-five-sand.vercel.app/",
+  },
+
+  {
+    id: 0,
+    title: "Logo Maker",
+    date: "Feb 2024 - Mar 2024",
+    description: "Дуртай логоогоо хийж, татаж авах  ",
+    image:
+      "https://cdn6.aptoide.com/imgs/6/2/9/62981e5b5f6255deb94fddba5db34ed1_icon.png",
+    tags: ["Tailwind CSS", "React", "emoji-picker"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Logo-maker",
+    webapp: "https://logo-maker-bice.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Expense Tracker",
+    date: "Dec 2023 - Jan 2024",
+    description: "Өөрийнхөө санхүүг зөв системээр удирдахад зориулагдсан",
+    image:
+      "https://images.ctfassets.net/lpvian6u6i39/6IYyJiDxqytCEH1RAyI0C6/0bfee6878c2f604927e404c6be894f1b/Project_expense_tracking_software.png",
+    tags: [
+      "React Js",
+      "Tailwind CSS",
+      "Clerk",
+      "NeonCTL",
+      "openai",
+      "Typescript",
+      "framer-motion",
+    ],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Expense-Tracker",
+    webapp: "https://expense-tracker-delta-eosin-99.vercel.app/",
+  },
+
+  {
+    id: 3,
+    title: "Calculator",
+    date: "Dec 2023 - Jan 2024",
+    description: "Тооны тоцоолол хийх зорилгоор",
+    image:
+      "https://media.idownloadblog.com/wp-content/uploads/2022/12/iPhone-Calculator-app.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Calculator",
+    webapp: "https://calculator-sooty-seven.vercel.app/",
+  },
+  {
     id: 10,
     title: "HRMS",
     date: "Apr 2024 - May 2024",
@@ -172,104 +293,5 @@ export const projects = [
       "https://github.com/pinecone-studio/pinecone-intern-monorepo/tree/main/apps/HRMS/hrms-dashboard",
     webapp:
       "https://intern-hrms-dashboard-prod-pinecone-studio.vercel.app/employee-details",
-  },
-
-  {
-    id: 1,
-    title: "To Do App",
-    date: "Oct 2023 - Sep 2023",
-    description:
-      "Хувь хүн тухайн өдрийн хийх зүйлээ маш зохион байгуулалтай үр дүнтэй хийхийн тулд ашиглах зорилгоор хийсэн нийт 4 үйлдлийг хийх боломжтой.",
-    image:
-      "https://repository-images.githubusercontent.com/621657746/73fdccdd-9a96-498b-b6d4-bed0708eb663",
-    tags: ["Javascript", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/LP23-1A/batchuluun/tree/main/todo",
-    webapp: "https://batchuluun-5bzd.vercel.app/",
-  },
-
-  {
-    id: 2,
-    title: "Blog Web Site",
-    date: "Dec 2023 - Jan 2024",
-    description:
-      "Эхэн үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
-    image:
-      "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-127416.jpg",
-    tags: ["React Js", "Tailwind CSS", "Blog API"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/blogwebsite",
-    webapp: "https://blogwebsite-ruddy.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Memory Game",
-    date: "Dec 2023 - Feb 2024",
-    description: "Хөгжилтэй байх зорилгоор хийсэн",
-    image:
-      "https://www.memozor.com/templates/memoire/images/zoom/memory_game_adults_emoji.jpg",
-    tags: ["HTML", "CSS", "Javascript"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/MemoryGame",
-    webapp: "https://memory-game-five-sand.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Calculator",
-    date: "Dec 2023 - Jan 2024",
-    description: "Тооны тоцоолол хийх зорилгоор",
-    image:
-      "https://media.idownloadblog.com/wp-content/uploads/2022/12/iPhone-Calculator-app.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/Calculator",
-    webapp: "https://calculator-sooty-seven.vercel.app/",
-  },
-  {
-    id: 0,
-    title: "Weather",
-    date: "Feb 2024 - Mar 2024",
-    description:
-      "Цаг агаарын api ашиглаж бүх улсын тухайн өдрийн цаг агаарын мэдээг хайж үнэн бодит мэдээлэл өгөх зорилгоор хийсэн.",
-    image:
-      "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?w=1500&quality=82&strip=all&ssl=1",
-    tags: ["Weather Api", "React Js", "Material UI"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/Weather1",
-    webapp: "https://weather-zeta-wine.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Expense Tracker",
-    date: "Dec 2023 - Jan 2024",
-    description: "Өөрийнхөө санхүүг зөв системээр удирдахад зориулагдсан",
-    image:
-      "https://www.appstudio.ca/blog/wp-content/uploads/2022/04/Pro-Suggestions-for-the-Best-Expense-Tracker-Apps-for-Startups-in-2022.jpg",
-    tags: ["React Js", "Tailwind CSS", "Daisy UI", "NeonCTL", "SQL"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/ExpenseTrackcer",
-    webapp: "https://expense-trackcer.vercel.app/",
-  },
-
-  {
-    id: 9,
-    title: "E-commerce",
-    date: "Nov 2023 - Mar 2023",
-    description:
-      "ямар нэгэн худалдааны байгуулга эмх цэгцтэй, орлого сайтай байхын тулд хийгдсэн",
-    image:
-      "https://w3layouts.com/wp-content/uploads/2021/06/Electronics-Mart-eCommerce-website-template-1-scaled.jpg",
-    tags: [
-      "Typescript",
-      "React",
-      "Material UI",
-      "Tailwind CSS",
-      "Daisy UI",
-      "MongoDB",
-      "Node Js",
-    ],
-    category: "web app",
-    github: "https://github.com/LP23-1A/E-commerce-team-4",
-    webapp: "https://e-commerce-team-4.vercel.app/",
   },
 ];
