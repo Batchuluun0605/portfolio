@@ -122,7 +122,10 @@ const Avatar = styled.img`
 
 const ProjectCards = ({ project, setOpenModal }) => {
   return (
-    <Card onClick={() => setOpenModal({ state: true, project: project })}>
+    <Card
+      onClick={() => setOpenModal({ state: true, project: project })}
+      className="relative group"
+    >
       <Image src={project.image} />
       <Tags>
         {project.tags?.map((tag, index) => (
@@ -139,6 +142,9 @@ const ProjectCards = ({ project, setOpenModal }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
+      <button className=" absolute top-[20%] left-[25%] py-2 bg-violet-300 group-hover:bg-violet-700 duration-300 rounded-md text-white px-4">
+        Над дээр дарна уу
+      </button>
       {/* <Button>View Project</Button> */}
     </Card>
   );

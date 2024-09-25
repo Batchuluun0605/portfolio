@@ -65,7 +65,7 @@ const Desc = styled.div`
 
 const Image = styled.img`
   width: 100%;
-  object-fit: cover;
+  height: "100px";
   border-radius: 12px;
   margin-top: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
@@ -236,10 +236,10 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target="new">
-              View Code
+              Код харах
             </Button>
             <Button href={project?.webapp} target="new">
-              View Live App
+              ажлуулж үзэх
             </Button>
           </ButtonGroup>
         </Wrapper>

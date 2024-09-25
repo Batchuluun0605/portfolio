@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState } from "react";
 import {
   HeroContainer,
   HeroBg,
@@ -11,19 +10,42 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import img from "../../../public/zurag.jpg";
 import Typewriter from "typewriter-effect";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Bio } from "@/data/constants";
-
+import html2pdf from "html2pdf.js"; // Make sure to import html2pdf
+import resume from "../../../public/resume.png";
 const HeroSection = () => {
-  const downloadImage = () => {
-    saveAs("https://www.imghippo.com/i/uQTTw1726208581.png", "image.jpg"); // Put your image URL here.
+  const [hide, setHide] = useState(false);
+  const downloadPDF = async () => {
+    const filename = "resume.pdf"; // Change to 'resume.pdf' for clarity
+
+    try {
+      const element = document.getElementById("resume-content");
+      // Make sure to have an ID for the content you want to download
+      const opt = {
+        margin: 1,
+        filename: filename,
+        image: { type: { resume }, quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: {
+          unit: "in",
+          format: "letter",
+          orientation: "portrait",
+        },
+      };
+      setHide(true);
+
+      await html2pdf().set(opt).from(element).save();
+      setHide(false);
+    } catch (error) {
+      console.error("Error:", error.message);
+    }
   };
+
   return (
     <div id="about">
       <HeroContainer>
@@ -48,9 +70,7 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
-              Check Resume
-            </ResumeButton>
+            <ResumeButton onClick={downloadPDF}>Download CV</ResumeButton>
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
@@ -58,6 +78,12 @@ const HeroSection = () => {
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
+      <div
+        id="resume-content"
+        style={{ display: `${hide ? "block" : "none"}` }}
+      >
+        <img src={resume.src} alt="Resume" />
+      </div>
     </div>
   );
 };

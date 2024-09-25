@@ -166,7 +166,7 @@ export const SubTitle = styled.div`
   }
 `;
 
-export const ResumeButton = styled.a`
+export const ResumeButton = styled.button`
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;

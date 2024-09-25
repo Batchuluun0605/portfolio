@@ -202,13 +202,37 @@ export const projects = [
     title: "Blog Web Site",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Эхэн үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
+      "Ихэнх үед өөрсдийн ажил амьдралын тухай өдрийн тэмдэглэл, тусгай сэдэв гэх мэт хэлбэртэйгээр он цаг дарааллын нарийвчлалтайгаар үзүүлдэг хувийн тэмдэглэл хэлбэртэй вэб сайтууд байсан бол одоо маш олон хэлбэрээр маш том хэмжээний веб сайтуудыг ч блог хэмээх ухагдахуунд багтаан авч үзэж байна. Блогт ихэвчлэн сэтгэгдэл бичих боломжтой байдаг бөгөөд үүгээр дамжуулан блогийн нийтлэгч нь уншигчидтайгаа чөлөөтэй харилцах боломж олгодог нь блогийн нэгэн том давуу тал болдог..",
     image:
       "https://raw.githubusercontent.com/Loopple/loopple-public-assets/main/website-templates/Blog%20Page%20Tech.png",
     tags: ["React Js", "Tailwind CSS", "axios", "Node Js", "MongoDB"],
     category: "web app",
-    github: "https://github.com/Batchuluun0605/Blog-App",
-    webapp: "https://blogwebsite-ruddy.vercel.app/",
+    github: "https://github.com/Batchuluun0605/Blog-App1",
+    webapp: "https://blog-app1-s966oxrtp-batchuluuns-projects.vercel.app/",
+  },
+  {
+    id: 0,
+    title: "Logo Maker",
+    date: "Feb 2024 - Mar 2024",
+    description: "Дуртай логоогоо хийж, татаж авах  ",
+    image:
+      "https://cdn6.aptoide.com/imgs/6/2/9/62981e5b5f6255deb94fddba5db34ed1_icon.png",
+    tags: ["Tailwind CSS", "React", "emoji-picker"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Logo-maker",
+    webapp: "https://logo-maker-bice.vercel.app/",
+  },
+  {
+    id: 20,
+    title: "Todo",
+    date: "Dec 2023 - Jan 2024",
+    description: "Өөрийн хийх ажлынхаа жагсаалт гаргах",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFmT0mwvkeXDbT1mGsyarF0Gp_oTWVVcpWbQ&s",
+    tags: ["CSS", "HTML", "JS"],
+    category: "web app",
+    github: "https://github.com/Batchuluun0605/Todo",
+    webapp: "https://todo-beta-one-22.vercel.app/",
   },
   {
     id: 5,
@@ -223,18 +247,6 @@ export const projects = [
     webapp: "https://memory-game-five-sand.vercel.app/",
   },
 
-  {
-    id: 0,
-    title: "Logo Maker",
-    date: "Feb 2024 - Mar 2024",
-    description: "Дуртай логоогоо хийж, татаж авах  ",
-    image:
-      "https://cdn6.aptoide.com/imgs/6/2/9/62981e5b5f6255deb94fddba5db34ed1_icon.png",
-    tags: ["Tailwind CSS", "React", "emoji-picker"],
-    category: "web app",
-    github: "https://github.com/Batchuluun0605/Logo-maker",
-    webapp: "https://logo-maker-bice.vercel.app/",
-  },
   {
     id: 4,
     title: "Expense Tracker",

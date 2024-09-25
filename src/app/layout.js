@@ -11,7 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <script src="es6-promise.auto.min.js"></script>
+        <script src="jspdf.min.js"></script>
+        <script src="html2canvas.min.js"></script>
+        <script src="html2pdf.min.js"></script>
+      </body>
     </html>
   );
 }
