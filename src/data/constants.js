@@ -208,7 +208,7 @@ export const projects = [
     tags: ["React Js", "Tailwind CSS", "axios", "Node Js", "MongoDB"],
     category: "web app",
     github: "https://github.com/Batchuluun0605/Blog-App1",
-    webapp: "https://blog-app1-s966oxrtp-batchuluuns-projects.vercel.app/",
+    webapp: "https://blog-app1-chi.vercel.app/",
   },
   {
     id: 0,
