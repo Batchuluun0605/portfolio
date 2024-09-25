@@ -40,7 +40,7 @@ const Home = () => {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   const router = useRouter();
   if (typeof document !== "undefined") {
-    console.log("hello");
+    console.log("");
   }
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>

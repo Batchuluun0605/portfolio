@@ -13,9 +13,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <script src="es6-promise.auto.min.js"></script>
-        <script src="jspdf.min.js"></script>
-        <script src="html2canvas.min.js"></script>
         <script src="html2pdf.min.js"></script>
       </body>
     </html>

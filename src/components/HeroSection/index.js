@@ -21,15 +21,23 @@ import resume from "../../../public/resume.png";
 const HeroSection = () => {
   const [hide, setHide] = useState(false);
   const downloadPDF = async () => {
-    const filename = "resume.pdf"; // Change to 'resume.pdf' for clarity
+    if (typeof window === "undefined") return; // Ensure it only runs in the browser
+
+    const html2Pdf = (await import("html2pdf.js")).default; // Dynamically import
+
+    const filename = "resume.pdf";
 
     try {
       const element = document.getElementById("resume-content");
-      // Make sure to have an ID for the content you want to download
+      if (!element) {
+        console.error("Resume content not found");
+        return;
+      }
+
       const opt = {
         margin: 1,
         filename: filename,
-        image: { type: { resume }, quality: 0.98 },
+        image: { type: "jpeg", quality: 0.98 },
         html2canvas: { scale: 2 },
         jsPDF: {
           unit: "in",
@@ -37,12 +45,12 @@ const HeroSection = () => {
           orientation: "portrait",
         },
       };
-      setHide(true);
 
-      await html2pdf().set(opt).from(element).save();
+      setHide(true);
+      await html2Pdf().set(opt).from(element).save();
       setHide(false);
     } catch (error) {
-      console.error("Error:", error.message);
+      console.error("Error occurred while downloading PDF:", error);
     }
   };
 
