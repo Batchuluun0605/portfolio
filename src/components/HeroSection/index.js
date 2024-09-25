@@ -16,43 +16,43 @@ import img from "../../../public/zurag.jpg";
 import Typewriter from "typewriter-effect";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Bio } from "@/data/constants";
-import html2pdf from "html2pdf.js"; // Make sure to import html2pdf
+// import html2pdf from "html2pdf.js"; // Make sure to import html2pdf
 import resume from "../../../public/resume.png";
 const HeroSection = () => {
   const [hide, setHide] = useState(false);
-  const downloadPDF = async () => {
-    if (typeof window === "undefined") return; // Ensure it only runs in the browser
+  // const downloadPDF = async () => {
+  //   if (typeof window === "undefined") return; // Ensure it only runs in the browser
 
-    const html2Pdf = (await import("html2pdf.js")).default; // Dynamically import
+  //   const html2Pdf = (await import("html2pdf.js")).default; // Dynamically import
 
-    const filename = "resume.pdf";
+  //   const filename = "resume.pdf";
 
-    try {
-      const element = document.getElementById("resume-content");
-      if (!element) {
-        console.error("Resume content not found");
-        return;
-      }
+  //   try {
+  //     const element = document.getElementById("resume-content");
+  //     if (!element) {
+  //       console.error("Resume content not found");
+  //       return;
+  //     }
 
-      const opt = {
-        margin: 1,
-        filename: filename,
-        image: { type: "jpeg", quality: 0.98 },
-        html2canvas: { scale: 2 },
-        jsPDF: {
-          unit: "in",
-          format: "letter",
-          orientation: "portrait",
-        },
-      };
+  //     const opt = {
+  //       margin: 1,
+  //       filename: filename,
+  //       image: { type: "jpeg", quality: 0.98 },
+  //       html2canvas: { scale: 2 },
+  //       jsPDF: {
+  //         unit: "in",
+  //         format: "letter",
+  //         orientation: "portrait",
+  //       },
+  //     };
 
-      setHide(true);
-      await html2Pdf().set(opt).from(element).save();
-      setHide(false);
-    } catch (error) {
-      console.error("Error occurred while downloading PDF:", error);
-    }
-  };
+  //     setHide(true);
+  //     await html2Pdf().set(opt).from(element).save();
+  //     setHide(false);
+  //   } catch (error) {
+  //     console.error("Error occurred while downloading PDF:", error);
+  //   }
+  // };
 
   return (
     <div id="about">
@@ -78,7 +78,11 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton onClick={downloadPDF}>Download CV</ResumeButton>
+            <ResumeButton
+              href={`https://www.canva.com/design/DAGRrQXXRNI/YC8HCoXOqbo4ugDibfnkNg/view?utm_content=DAGRrQXXRNI&utm_campaign=designshare&utm_medium=link&utm_source=editor`}
+            >
+              Check Resume
+            </ResumeButton>
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">

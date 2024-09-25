@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <script src="html2pdf.min.js"></script>
+        {/* <script src="html2pdf.min.js"></script> */}
       </body>
     </html>
   );
